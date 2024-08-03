@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/hive-o/xss/compare/xss-v1.0.1...xss-v1.1.0) (2024-08-03)
+
+
+### Features
+
+* add debugger ([d2eb6a6](https://github.com/hive-o/xss/commit/d2eb6a6810df86960959bdfdeda270098038f043))
+
 ## [1.0.1](https://github.com/hive-o/xss/compare/xss-v1.0.0...xss-v1.0.1) (2024-08-03)
 
 
