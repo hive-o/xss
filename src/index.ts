@@ -9,11 +9,11 @@ export interface Navigation {
 
 export class Xss {
   private debugger(tag) {
-    return DEBUG(`xss|{${tag}}`);
+    return DEBUG(`xss:${tag}`);
   }
 
   async scan(urls: Navigation[], payloads: string[]) {
-    const debug = this.debugger('scan()');
+    const debug = this.debugger('scan');
 
     debug('started');
     debug('urls %o', urls.map(({url}) => `${url} `));
