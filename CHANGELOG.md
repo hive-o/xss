@@ -1,3 +1,11 @@
+## [1.0.1](https://github.com/hive-o/xss/compare/xss-v1.0.0...xss-v1.0.1) (2024-08-03)
+
+
+### Bug Fixes
+
+* async dep version ([a1acad2](https://github.com/hive-o/xss/commit/a1acad2e8fdd822c39ec8849229c0e10ffb9af58))
+* use WeberBrowser, update scan loop ([baaa655](https://github.com/hive-o/xss/commit/baaa65566d11614931faf3efcf1c2ee48020b968))
+
 # 1.0.0 (2024-08-03)
 
 
