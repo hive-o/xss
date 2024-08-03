@@ -16,7 +16,7 @@ export class Xss {
     const debug = this.debugger('scan');
 
     debug('started');
-    debug('urls %o', urls.map(({url}) => `${url} `));
+    debug('metrics | urls: %o, payloads: %o', urls.length, payloads.length);
     await async.forEachSeries(payloads, async (payload) => {
       await async.forEachSeries(
         urls,
