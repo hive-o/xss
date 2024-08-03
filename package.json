@@ -13,7 +13,6 @@
   },
   "dependencies": {
     "@hive-o/weber": "^1.1.0",
-    "async": "2.6.4",
     "debug": "^4.3.6",
     "tslib": "^2.3.0"
   },
