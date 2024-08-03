@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/hive-o/xss/compare/xss-v1.1.1...xss-v1.1.2) (2024-08-03)
+
+
+### Bug Fixes
+
+* improve debug logs for scan fn ([5b1f278](https://github.com/hive-o/xss/commit/5b1f2788e54e2d666ad9b27bef0e2bb026ed49e5))
+
 ## [1.1.1](https://github.com/hive-o/xss/compare/xss-v1.1.0...xss-v1.1.1) (2024-08-03)
 
 
