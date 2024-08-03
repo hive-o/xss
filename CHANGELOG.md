@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/hive-o/xss/compare/xss-v1.1.0...xss-v1.1.1) (2024-08-03)
+
+
+### Bug Fixes
+
+* debug tags ([004408a](https://github.com/hive-o/xss/commit/004408a4afdf4a89857056417277a761ec8de25f))
+
 # [1.1.0](https://github.com/hive-o/xss/compare/xss-v1.0.1...xss-v1.1.0) (2024-08-03)
 
 
