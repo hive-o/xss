@@ -1,5 +1,6 @@
 import { WeberBrowser } from '@hive-o/weber';
 import * as async from 'async';
+import * as DEBUG from 'debug';
 
 export interface Navigation {
   query_params: URLSearchParams;
@@ -7,7 +8,15 @@ export interface Navigation {
 }
 
 export class Xss {
+  private debugger(tag) {
+    return DEBUG(`xss|{${tag}}`);
+  }
+
   async scan(urls: Navigation[], payloads: string[]) {
+    const debug = this.debugger('scan()');
+
+    debug('started');
+    debug('urls %o', urls.map(({url}) => `${url} `));
     await async.forEachSeries(payloads, async (payload) => {
       await async.forEachSeries(
         urls,
@@ -17,15 +26,15 @@ export class Xss {
           const page = await browser.context.newPage();
 
           try {
-            console.log(`scanning ${url} | payload ${payload}`);
+            debug(`scanning ${url} | payload ${payload}`);
 
             // Improved Error Handling and Event Management
             page.on("dialog", async (dialog) => {
-              console.log("Found Vulnerability: ", dialog.message());
+              debug("Found Vulnerability: ", dialog.message());
               await dialog.dismiss();
             });
 
-            page.on("error", console.error); // Catch potential page errors
+            page.on("error", debug); // Catch potential page errors
 
             url.searchParams.append("query", payload);
 
@@ -46,7 +55,7 @@ export class Xss {
           } finally {
             await page.close();
             await browser.close();
-            console.log(`scanning ${url} | payload ${payload} completed`);
+            debug(`scanning ${url} | payload ${payload} completed`);
           }
         },
       );
