@@ -1,3 +1,16 @@
+# [1.2.0](https://github.com/hive-o/xss/compare/xss-v1.1.2...xss-v1.2.0) (2024-08-03)
+
+
+### Bug Fixes
+
+* remove index.js ([c2810c9](https://github.com/hive-o/xss/commit/c2810c95cf2abdeb72e14b7a37f22866e7db85fd))
+* yarn.lock ([05d7224](https://github.com/hive-o/xss/commit/05d722429473d75e2d0a025d6659ce0b90eca455))
+
+
+### Features
+
+* append payloads to search params ([31fcb18](https://github.com/hive-o/xss/commit/31fcb18e883347b49b5276426ebe294577b0b617))
+
 ## [1.1.2](https://github.com/hive-o/xss/compare/xss-v1.1.1...xss-v1.1.2) (2024-08-03)
 
 
