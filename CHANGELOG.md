@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/hive-o/xss/compare/xss-v1.2.0...xss-v1.3.0) (2024-08-12)
+
+
+### Features
+
+* debug ([8e29e66](https://github.com/hive-o/xss/commit/8e29e6648262ccf571d46ff031b80b6b4ee7e710))
+
 # [1.2.0](https://github.com/hive-o/xss/compare/xss-v1.1.2...xss-v1.2.0) (2024-08-03)
 
 
