@@ -12,7 +12,9 @@
     "access": "public"
   },
   "dependencies": {
-    "@hive-o/weber": "^1.1.0",
+    "@hive-o/artax-common": "^1.0.0",
+    "@hive-o/middleware": "^1.8.0",
+    "@hive-o/weber": "^1.2.0",
     "debug": "^4.3.6",
     "tslib": "^2.3.0"
   },
@@ -50,7 +52,7 @@
   "type": "commonjs",
   "main": "./src/index.js",
   "typings": "./src/index.d.ts",
-  "packageManager": "yarn@4.3.1",
+  "packageManager": "yarn@4.4.0",
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"

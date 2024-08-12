@@ -1732,13 +1732,31 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@hive-o/weber@npm:^1.1.0":
-  version: 1.1.0
-  resolution: "@hive-o/weber@npm:1.1.0"
+"@hive-o/artax-common@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "@hive-o/artax-common@npm:1.0.0"
+  dependencies:
+    tslib: "npm:^2.3.0"
+  checksum: 10c0/2a91457210dac66e2f62d63f28fe36b094a037a7b23ec99e2d67539058009327ccf1ca954b6b295660a9a8d6957958521e93a4174f5faf8b1ca4a69f51b197bf
+  languageName: node
+  linkType: hard
+
+"@hive-o/middleware@npm:^1.8.0":
+  version: 1.8.0
+  resolution: "@hive-o/middleware@npm:1.8.0"
+  dependencies:
+    tslib: "npm:^2.3.0"
+  checksum: 10c0/c8e2ee79ef1900206bae2965554698fb0b67c8e58639743c8ff6d084d30774439f17a0ad06fd362a4ee5f5652881721394e2ce136e814c2d9fd5aac0e8cc777e
+  languageName: node
+  linkType: hard
+
+"@hive-o/weber@npm:^1.2.0":
+  version: 1.2.0
+  resolution: "@hive-o/weber@npm:1.2.0"
   dependencies:
     puppeteer: "npm:^22.15.0"
     tslib: "npm:^2.3.0"
-  checksum: 10c0/3b0ad94f2d93e993f94f4d370946b3b9c51b20be4cd7ad3f56a8c98b53f0335561aa6bdf35a047ba5656c2c219d8b5c46d3c6f644526ccabf4dcbcbd23fb8b13
+  checksum: 10c0/0f9040f08a4781ea03d54fc37ccd061eab0d718e257116823eecf8806075a533fe157808a5b29df5d46cdb8a1c39ec2c363d7e3b1192d1bb8f03715d45cdb11f
   languageName: node
   linkType: hard
 
@@ -1746,7 +1764,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@hive-o/xss@workspace:."
   dependencies:
-    "@hive-o/weber": "npm:^1.1.0"
+    "@hive-o/artax-common": "npm:^1.0.0"
+    "@hive-o/middleware": "npm:^1.8.0"
+    "@hive-o/weber": "npm:^1.2.0"
     "@nx/eslint": "npm:19.5.6"
     "@nx/eslint-plugin": "npm:19.5.6"
     "@nx/js": "npm:19.5.6"
