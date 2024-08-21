@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/hive-o/xss/compare/xss-v1.3.0...xss-v1.4.0) (2024-08-21)
+
+
+### Features
+
+* optimize payload testing on uri's ([9e36560](https://github.com/hive-o/xss/commit/9e3656066dfa9ab7364f4bb3186e69b7b239108a))
+
 # [1.3.0](https://github.com/hive-o/xss/compare/xss-v1.2.0...xss-v1.3.0) (2024-08-12)
 
 
